@@ -1,0 +1,44 @@
+.Speed-Tracker{
+    background-color:transparent;
+    width: 400px;
+    margin: auto;
+    border-radius: 5px;
+    padding: 10px;    
+}
+
+.Speed-Tracker h2{
+    color: whitesmoke;
+    font-weight: 200;
+    
+}
+
+.Speed-Tracker h2 span {
+    color: rgb(219, 79, 79);
+    font-weight: bold;
+}
+
+.items{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.items div{
+    display: flex;
+    text-align: center;
+}
+
+.items div p{
+    color: grey;
+    font-weight: bold;
+    text-align: center;
+}
+
+.items div p .tracker{
+    color: rgb(222, 222, 28);
+    font-size: 40px;
+    margin: 0;
+    text-align: center;
+
+}

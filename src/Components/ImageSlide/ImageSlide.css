@@ -1,0 +1,19 @@
+.Image-container {
+    position: relative;
+    margin-left: 50px;
+    width: fit-content;
+}
+
+.speed-info{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    text-align: right;
+    color: green;
+    font-size: 15px;
+}
+
+.speed-info span{
+    color: green;
+    font-weight: bold;
+}

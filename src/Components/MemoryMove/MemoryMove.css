@@ -1,0 +1,99 @@
+.Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    width: 1000px;
+    margin: 300px auto;
+}
+
+h1 {
+    font-size: 40px;
+    background: linear-gradient(45deg, rgb(136, 29, 131), red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+}
+
+p{
+    color: whitesmoke;
+}
+
+.Container .button{
+    width: 120px;
+    margin: auto;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    background-color: rgb(184, 184, 11);
+    color: white;
+    cursor: pointer;
+    transition: 1s ease-in-out all;
+}
+
+.Container .button:hover{
+    background: linear-gradient(45deg, red, yellow);
+}
+
+.memory-container{
+    color: white;
+    margin: 200px auto;
+    width: 1000px;
+}
+
+.memory-container p {
+    font-size: 20px;    
+}
+
+.text-hidden span{
+    font-size: 20px;
+    
+}
+
+.txt-btn {
+    display: flex;    
+    flex-direction: column;
+    justify-content: center;
+}
+
+.txt-btn textarea {
+    width: 500px;
+    margin: auto;
+    background-color: transparent;
+    border: none;
+    resize: none;
+    font-size: 20px;
+    outline: none;
+    color: transparent;
+}
+
+.txt-btn .button {
+    width: 200px;
+    font-size: 16px;
+    padding: 5px 5px;
+    margin: auto;
+    cursor: pointer;
+    background-color: rgb(241, 164, 50);
+    color: lightgrey;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    transition: 1s ease all ;
+}
+
+.txt-btn .button:hover{
+    background-color: transparent;
+    border: 1px solid rgb(241, 164, 50);
+    color: rgb(241, 164, 50);
+}
+
+.heading h2{
+    color: lightgreen;
+    font-size: 40px;
+}
+
+.result h2{
+    color: lightgreen;
+}   

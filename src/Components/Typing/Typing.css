@@ -1,0 +1,172 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #323437;
+}
+
+.typing-page{
+    width: 1200px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.typing-page span{  
+    color: rgb(206, 107, 107);
+    font-weight: 300;
+}
+
+.typing-page h2{
+    font-weight: 100;
+}
+
+.typing-page h6{
+    color: lightgreen;
+    font-size: 16px;
+    text-align: left;
+    margin: 2px 5px;
+}
+
+.typing-page h2{
+    color: rgb(217, 208, 208);
+    font-size: 40px;
+}
+
+.text-container{
+    color: darkgray;
+    text-align: justify;
+    z-index: 1; 
+    word-spacing: 5px;
+    font-size: 30px;
+}
+
+.text-container span{
+    font-weight: bold;
+}
+
+/* trying to take the textarea on the paragraph  */
+
+.Text-Para {
+    position: relative;
+}
+
+/* .type-para {
+    position: absolute;
+    top: 0;
+    border: 1px solid white;
+    width: 1000px;
+    height: 80px;
+} */    
+
+.typing-box textarea{
+    width: 100%;
+    max-width: 1000px;
+    height: 100px;
+    outline: none;
+    font-size: 20px;
+    border: none;
+    /* border: 1px solid white; */
+    /* border-radius: 5px; */
+    background-color: transparent;
+    overflow: none;
+    color: transparent;
+    resize: none;
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 10px;
+}
+
+.Btn{
+    width: 600px;
+    margin: auto;
+    /* border: 1px solid white; */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.Btn button{
+    width: 100px;
+    /* display: flex; */
+    justify-content: center;
+    border-radius: 3px;    
+    border: none;
+    outline: none;
+    font-size: 15px;
+    cursor: pointer;
+    background: transparent;
+    color: grey;
+}
+
+button:hover{
+    color: white;
+    transition: 0.8s ease;
+}
+
+.restart-btn button{
+    color: gray;
+    border: none;
+    background-color: transparent;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.restart-btn button:hover{
+    color: white;
+    transition: 1s ease ;
+}
+
+.login-headers{
+    width: 50px;
+    display : flex;
+    justify-content: center;
+    gap: 15px;
+    margin: auto;
+    margin-right: 10px;
+    position : relative;
+}
+
+.login-headers .icon {
+    cursor: pointer;
+    color: grey;
+    transition: 1s ease;
+    font-size: 20px;
+}
+
+.login-headers .icon:hover{
+    color: white;
+}
+
+
+/* setting panel */
+.more-setting {
+    background-color:grey;
+    width:150px;
+    position: absolute;
+    top: 25px;
+    right: -10px;
+    border-radius: 3px;    
+    display: flex;
+    justify-content: center;    
+}
+
+.more-setting button{
+    display: flex;
+    width: 100%;
+    padding: 3px;
+    font-size: 15px;
+    background-color: transparent;
+    color: black;
+    border: none;
+    outline: none;
+    cursor : pointer;
+}
+
+
+
+.more-setting button:hover{
+    color: white;
+    border-radius: 3px;
+}
